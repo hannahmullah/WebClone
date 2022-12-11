@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #202124;
+    /* border: 1px solid red; */
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+    justify-content: space-between;
+}
+
+
+nav {
+    display: flex;
+    overflow: hidden;
+    /* padding: 10px 10px; */
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+li {
+    text-align: center;
+    padding: 0 10px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gmail,
+.images {
+    font-size: 0.9rem;
+    line-height: 24px;
+}
+
+.dots {
+
+    border-radius: 50%;
+}
+
+.dotsbutton {
+    width: 25px;
+}
+
+
+.hbuttonstyle {
+    margin-top: 6px;
+    border-radius: 50%;
+    width: 100%
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    position: relative;
+
+}
+
+.googlelogo {
+    display: block;
+    height: 190px;
+    margin-top: 150px;
+    margin-bottom: -20px;
+}
+
+.searchbar {
+    width: 580px;
+    height: 45px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    border-radius: 45px;
+    border: 1px solid #d3d3d3;
+}
+
+.searchbar:hover {
+    box-shadow: 0 1px 6px 1px rgba(201, 201, 201, 0.5);
+}
+
+.searchbar:focus {
+    outline: none;
+}
+
+
+.magnifyingglass {
+    width: 25px;
+}
+
+.searchicon {
+    width: 20px;
+    opacity: .4;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+}
+
+.microphone {
+    width: 14px;
+    position: absolute;
+    top: 13px;
+    right: 45px;
+}
+
+.camera {
+    width: 20px;
+    position: absolute;
+    top: 13px;
+    right: 15px;
+}
+
+button {
+    border: 1px solid transparent;
+    padding: 8px 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+button:hover {
+    border: 1px solid #eee;
+    box-shadow: 0 0 2px 1px (189, 189, 189 0.5);
+    cursor: pointer;
+    padding: 8px 12px;
+}
+
+.buttons {
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footernav {
+    width: 100%;
+    background: #f2f2f2;
+}
+
+.panel {
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.panel>* {
+    flex-basis: 33%;
+}
+
+
+p {
+    color: gray;
+    padding-left: 15px;
+}
+
+.carbon {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.leaf {
+    height: 13px
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.bottomPanel {
+    color: gray;
+}
+
+#HSW {
+    white-space: nowrap;
+    ;
+}
+
+
+/* @media only screen and (max-width: 1200px) {
+    .carbon {
+        order: 0;
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .panel2 {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .footernav {
+        justify-content: space-between;
+    }
+} */
